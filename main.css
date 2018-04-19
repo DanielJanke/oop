@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container__body {
+  float: left;
+}
+.container__body *{
+  position: absolute;
+}
+
+.body {
+  transform: translate(110px, 10px);
+}
+
+
+.container__grid {
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+.grid {
+  position: absolute;
+  z-index: -10;
+}
+
+.gear {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  float: left;
+
+}
+
+.body__Armor {
+  transform: translate(110px, 80px);
+  width: 180px;
+}
+
+.body__Glove, .body__Hands {
+  transform: translate(110px, 255px);
+  width: 180px;
+}
+
+.body__hat {
+  transform: translate(110px, 80px);
+  width: 180px;
+}
